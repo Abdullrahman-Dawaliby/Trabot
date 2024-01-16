@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 
 # Define a function to handle the /start command
 def start(update, context):
-    update.message.reply_text('Welcome to the Telegram translator bot! Send me a message, and I will translate it for you.')
+    update.message.reply_text('Welcome to the Telegram translator bot! Send me a message, and I will translate it for you from any language to English. Built with love by @One_Piece_SY')
 
 # Define a function to handle incoming messages and to translate them
 def translate_message(update, context):
